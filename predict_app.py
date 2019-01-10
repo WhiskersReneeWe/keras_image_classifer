@@ -2,7 +2,7 @@
 """
 Created on Wed Jan  9 23:24:09 2019
 
-@author: shiyan
+@author: Renee Liu
 """
 
 import base64
