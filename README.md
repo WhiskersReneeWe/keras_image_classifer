@@ -24,6 +24,11 @@
    * `flask run`
 2. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
 
+
+## The UI should look like this (This is actually taken from my own browswer)
+
+![image](https://user-images.githubusercontent.com/43501958/51019273-32b6d580-152f-11e9-8df5-f1df3b5958e4.png)
+
 ## Tutorials (videos)
 * [Siraj's Keras Deployment](https://www.youtube.com/watch?v=f6Bf3gl4hWY&t=881s)
 * [Udacity full stack](https://classroom.udacity.com/courses/ud088/lessons/3593308717/concepts/36245586050923)
