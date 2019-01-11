@@ -19,6 +19,8 @@
 4. I am still in the process of figuring out how to run it on either Google Cloud or AWS.
 5. The .xml file is a pretrained file for face recognition; The .hdf5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
 
+
+
 ## How to get it going?
 1. In your command prompt, do these three commands as follows,
    * `set FLASK_APP=run_app.py` (windows)
@@ -27,9 +29,13 @@
 2. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
 
 
+
 ## The UI should look like this (This is actually taken from my own browswer)
 
+
 ![image](https://user-images.githubusercontent.com/43501958/51019273-32b6d580-152f-11e9-8df5-f1df3b5958e4.png)
+
+
 
 ## Tutorials (videos)
 * [Siraj's Keras Deployment](https://www.youtube.com/watch?v=f6Bf3gl4hWY&t=881s)
