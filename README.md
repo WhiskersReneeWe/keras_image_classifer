@@ -5,8 +5,10 @@ _(Soon to come to life ...)_
 
 __Under Major Construction__
 
-## Tutorials
+## Tutorials (videos)
+* [Siraj's Keras Deployment](https://www.youtube.com/watch?v=f6Bf3gl4hWY&t=881s)
 * [Udacity full stack](https://classroom.udacity.com/courses/ud088/lessons/3593308717/concepts/36245586050923)
+* [Deeplizard Series](https://www.youtube.com/watch?v=eCz_DTtUBfo&feature=youtu.be)
 
 
 ## Acknowledgement
