@@ -16,6 +16,7 @@
 2. Other py. files serve as modules for run_app.py
 3. The user interactive code is predict.html. You can access it within __static__ folder.
 4. I am still in the process of figuring out how to run it on either Google Cloud or AWS.
+5. The .xml file is a pretrained file for face recognition; The .htd5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
 
 ## How to get it going?
 1. In your command prompt, do these three commands as follows,
