@@ -30,7 +30,7 @@
 
 
 
-## The UI should look like this (This is actually taken from my own browswer)
+## The UI should look like this (This is actually snipped from my own browswer)
 
 
 ![image](https://user-images.githubusercontent.com/43501958/51019273-32b6d580-152f-11e9-8df5-f1df3b5958e4.png)
