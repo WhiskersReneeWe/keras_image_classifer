@@ -17,6 +17,13 @@
 3. The user interactive code is predict.html. You can access it within __static__ folder.
 4. I am still in the process of figuring out how to run it on either Google Cloud or AWS.
 
+## How to get it going?
+1. In your command prompt, do these three commands as follows,
+   * `set FLASK_APP=run_app.py` (windows)
+   * `set FLASK_ENV=development`
+   * `flask run`
+2. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
+
 ## Tutorials (videos)
 * [Siraj's Keras Deployment](https://www.youtube.com/watch?v=f6Bf3gl4hWY&t=881s)
 * [Udacity full stack](https://classroom.udacity.com/courses/ud088/lessons/3593308717/concepts/36245586050923)
