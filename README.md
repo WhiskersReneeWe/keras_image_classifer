@@ -19,11 +19,13 @@
 * base64
 
 ## Main files included in this repository and their usages
+
 1. run_app.py is the main flask app that we need to run the web application.
 2. Other py. files serve as modules for run_app.py
 3. The user interactive code is predict.html. You can access it within __static__ folder.
 4. I am still in the process of figuring out how to run it on either Google Cloud or AWS.
 5. The .xml file is a pretrained file for face recognition; The .hdf5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
+6. documentation_capstone.pdf is the written documentation to summarize the details of this project. You can read about the key process involving data preprocessing and model implementation.
 
 
 
