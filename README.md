@@ -11,8 +11,14 @@
 * Imagine if you see a dog on the street but don't know what it is, and you are dying to find out more information about this dog because you want to adopt a similar one. What you do? Just take a photo of this dog and upload it to a web serive like this!
 
 
+## Python Libraries Used for this project
 
-## Usage
+* Keras
+* Matplotlib, numpy
+* cv2
+* base64
+
+## Min files included in this repository and their usages
 1. run_app.py is the main flask app that we need to run the web application.
 2. Other py. files serve as modules for run_app.py
 3. The user interactive code is predict.html. You can access it within __static__ folder.
