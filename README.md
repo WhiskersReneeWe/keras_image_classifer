@@ -54,7 +54,8 @@
 ## Acknowledgement
 
 * Deeplizard and Siraj's YouTube Channels.
-* extract_bottleneck_features.py is pretrained and provided by Udacity
+* extract_bottleneck_features.py is pretrained and provided by Udacity.
+* All pretrained features are provided by Udacity.
 
 ## Author
 
