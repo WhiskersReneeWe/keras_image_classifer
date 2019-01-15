@@ -55,3 +55,7 @@
 
 * Deeplizard and Siraj's YouTube Channels.
 * extract_bottleneck_features.py is pretrained and provided by Udacity
+
+## Author
+
+Renee Shiyan Liu
