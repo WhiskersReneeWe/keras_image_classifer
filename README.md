@@ -18,7 +18,7 @@
 * cv2
 * base64
 
-## Min files included in this repository and their usages
+## Main files included in this repository and their usages
 1. run_app.py is the main flask app that we need to run the web application.
 2. Other py. files serve as modules for run_app.py
 3. The user interactive code is predict.html. You can access it within __static__ folder.
