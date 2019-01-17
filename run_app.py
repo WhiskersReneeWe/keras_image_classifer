@@ -23,7 +23,7 @@ app = Flask(__name__)
 def get_model():
     '''load the trained CNN model with existing weights'''
     global model
-    model = load_model()
+    INCEPTION_model = load_model()
     print("Inception Model Loaded!")
     
 def INCEPTIONV3_predict_breed(img):
