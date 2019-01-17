@@ -38,7 +38,7 @@ def face_detector(img, target_size = (224, 224)):
     return len(faces) > 0
 
 ### returns "True" if a dog is detected in the image stored at img_path
-def dog_detector(img_path):
+def dog_detector(img):
     '''
     input -- a file path that leads to a image in your local computer
     output -- return true if a dog face is detected based on the existing labels from ImageNet
