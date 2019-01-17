@@ -40,7 +40,7 @@ def face_detector(img, target_size = (224, 224)):
 ### returns "True" if a dog is detected in the image stored at img_path
 def dog_detector(img):
     '''
-    input -- a file path that leads to a image in your local computer
+    input -- any image
     output -- return true if a dog face is detected based on the existing labels from ImageNet
     '''
     prediction = ResNet50_predict_labels(img)
