@@ -17,6 +17,7 @@
 * Matplotlib, numpy
 * cv2
 * base64
+* Please see env.txt for details, if you want to run in a conda virtual environment
 
 ## Main files included in this repository and their usages
 
@@ -30,11 +31,15 @@
 
 
 ## How to get it going?
-1. In your command prompt, do these three commands as follows,
+
+0. In Anaconda Prompt, do the following to create a virtual envrironment. (For example, I name this project as dog_project)
+   `conda create -n dog_project --file env.txt`
+1. Make sure all .files in this repository is in the same directory on your local computer.   
+2. In your command prompt, do these three commands as follows,
    * `set FLASK_APP=run_app.py` (windows)
    * `set FLASK_ENV=development`
    * `flask run`
-2. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
+3. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
 
 
 
