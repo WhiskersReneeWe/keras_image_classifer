@@ -43,7 +43,7 @@
             image: base64Image
           }
           console.log(message);
-          $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function(response){
+          $.post("http://127.0.0.1:5000/static/predict", JSON.stringify(message), function(response){
             $("#breed-prediction").text(response.prediction);
             console.log(response);
           });
