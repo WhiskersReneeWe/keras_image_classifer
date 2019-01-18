@@ -47,7 +47,7 @@
 ## The UI should look like this (This is actually snipped from my own browser)
 
 
-![image](https://user-images.githubusercontent.com/43501958/51019273-32b6d580-152f-11e9-8df5-f1df3b5958e4.png)
+!<img width="446" alt="webapp" src="https://user-images.githubusercontent.com/43501958/51417151-8d54c080-1b31-11e9-854b-8d8fe864a318.png">
 
 
 
@@ -62,7 +62,7 @@
 * Deeplizard and Siraj's YouTube Channels.
 * extract_bottleneck_features.py is pretrained and provided by Udacity.
 * All pretrained features are provided by Udacity.
-*[This is the main resource I used to create a UI] (https://github.com/mtobeiyf/keras-flask-deploy-webapp)
+* [This is the main resource I used to create a UI] (https://github.com/mtobeiyf/keras-flask-deploy-webapp)
 
 ## Author
 
