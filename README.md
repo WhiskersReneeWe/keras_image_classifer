@@ -62,7 +62,7 @@
 * Deeplizard and Siraj's YouTube Channels.
 * extract_bottleneck_features.py is pretrained and provided by Udacity.
 * All pretrained features are provided by Udacity.
-* [This is the main resource I used to create a UI] (https://github.com/mtobeiyf/keras-flask-deploy-webapp)
+* [This is the main resource I used to create a UI](https://github.com/mtobeiyf/keras-flask-deploy-webapp)
 
 ## Author
 
