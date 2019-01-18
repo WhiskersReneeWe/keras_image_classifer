@@ -35,10 +35,11 @@
 0. In Anaconda Prompt, do the following to create a virtual envrironment. (For example, I name this project as dog_project)
    `conda create -n dog_project --file env.txt`
 1. Make sure all files in this repository is in the same directory on your local computer.   
-2. In your command prompt, do these three commands as follows,
+2. In your command prompt, type the following commands sequentially,
+   * `set TF_CPP_MIN_LOG_LEVEL=2` (windows)
    * `set FLASK_APP=run_app.py` (windows)
    * `set FLASK_ENV=development`
-   * `flask run`
+   * `flask run --host = 0.0.0.0`
 3. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
 
 
