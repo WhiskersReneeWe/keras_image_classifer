@@ -204,9 +204,9 @@ def predict():
     prediction = prediction[2].replace('_', ' ')
     
     
-    if face_detector(image):
+    if face_detecting(image):
             result = 'This photo looks like a/an {}'.format(prediction)
-    elif dog_detector(image):
+    elif dog_detecting(image):
             result = 'This is an/a {}'.format(prediction)
     else:
         result = 'So sorry: This image is not recognizable!'
@@ -229,13 +229,6 @@ if __name__ == '__main__':
     # http_server.serve_forever()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
