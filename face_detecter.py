@@ -25,7 +25,7 @@ def ResNet50_predict_labels(img, target_size = (224, 224)):
 
 
 # returns "True" if face is detected in image stored at img_path
-def face_detector(img, target_size = (224, 224)):
+def face_detecting(img, target_size = (224, 224)):
     '''
     input - any image, a specified targeted size
     output - Return true if a human face is detected from the image input
@@ -38,7 +38,7 @@ def face_detector(img, target_size = (224, 224)):
     return len(faces) > 0
 
 ### returns "True" if a dog is detected in the image stored at img_path
-def dog_detector(img):
+def dog_detecting(img):
     '''
     input -- any image
     output -- return true if a dog face is detected based on the existing labels from ImageNet
