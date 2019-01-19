@@ -1,4 +1,4 @@
-## __(This is still under MAJOR construction)__
+## __(This project is still under constant construction)__
 # Transfer Learning using Keras InceptionV3 Model to classify dog faces
 
 ## Motivation
@@ -16,17 +16,15 @@
 * Keras, tensorflow
 * Matplotlib, numpy
 * cv2
-* base64
 * Please see env.txt for details, if you want to run in a conda virtual environment
 
 ## Main files included in this repository and their usages
 
 1. run_app.py is the main flask app that we need to run the web application.
-2. Other files serve as modules for run_app.py
-3. The user interactive code is predict.html. You can access it within __static__ folder.
-4. I am still in the process of figuring out how to run it on either Google Cloud or AWS.
-5. The .xml file is a pretrained file for face recognition; The .hdf5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
-6. documentation_capstone.pdf is the written documentation to summarize the details of this project. You can read about the key process involving data preprocessing and model implementation.
+2. Other files serve as modules for run_app.py. Specifically, you should put all of the files in the same directory where you will run rin_app.py.
+3. Templates folder includes files that build up the UI. Static folder includes files specific for web page behaviors (These are found on the internet and serve as boilerplates code for people like me with little JS background).
+4. The .xml file is a pretrained file for face recognition; The .hdf5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
+5. documentation_capstone.pdf is the written documentation to summarize the details of this project. You can read about the key process involving data preprocessing and model implementation.
 
 
 
@@ -40,7 +38,7 @@
    * `set FLASK_APP=run_app.py` (windows)
    * `set FLASK_ENV=development`
    * `flask run --host = 0.0.0.0`
-3. Then, when it is up and running, go to http://127.0.0.1:5000/static/predict.html
+3. Then, when it is up and running, go to http://127.0.0.1:5000
 
 
 
