@@ -29,11 +29,6 @@ graph = tf.get_default_graph()
 print("loading Inception Model ......")
 INCEPTION_model = load_model()
 
-
-# def get_model():
-#     '''load the trained CNN model with existing weights'''
-#     global INCEPTION_model
-#     INCEPTION_model = load_model()
 print("Inception Model Loaded!")
     
 def path_to_tensor(img_path):
@@ -189,8 +184,6 @@ def INCEPTIONV3_predict_breed(img):
     return dog_names[np.argmax(pred_vector)]
     
 
-# graph = tf.get_default_graph()
-
 
 @app.route('/', methods = ['GET'])
 def index():
@@ -208,16 +201,10 @@ def predict():
     # Get the image file from the post request
     file = request.files['file']
         
-        # Save the file with proper image path
+    # Save the file with proper image path
     basepath = os.path.dirname(__file__)
     file_path = os.path.join(basepath, secure_filename(file.filename))
     file.save(file_path)
-    #message = request.get_json(force = True)
-    #encoded = message['image']
-    #decoded = base64.b64decode(encoded)
-    # image = Image.open(io.BytesIO(decoded))
-    # if image.mode != 'RGB':
-    #     image = image.convert('RGB')
     image = path_to_tensor(file_path)
     # convert 3D tensor to 4D tensor with shape (1, 224, 224, 3) and return 4D tensor
     #with graph.as_default():
