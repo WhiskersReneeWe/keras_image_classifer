@@ -1,4 +1,4 @@
-## __(This project is still under constant construction)__
+## __(This project is still under major construction. Projection documentation is on its way ...)__
 # Transfer Learning using Keras InceptionV3 Model to classify dog faces
 
 ## Motivation
