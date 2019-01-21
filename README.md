@@ -4,11 +4,11 @@
 ## Motivation
 
 * The goal of this project is to deploy a trained transfer-learning classification model -- InceptionV3 model -- in Keras to Flask Web service. 
+* This web application has a 81.5% prediction accuracy. Namely, you should be confident with the prediction result.
 * The model input is simply a uploaded dog or human photo. The output tells you what the dog breed is. If you upload a human photo, the prediction tells you what dog breed this human face resembles the most. I know, deep learning can be __Funky!__
 * Deploying a model like this makes deep learning super useful to ordinary users. 
-* Personally, it is a great exercise to practice how to train a deep learning model and make it as a product!
-* I encourage you to start the journey together with me by doing hands-on project like this!
-* Imagine if you see a dog on the street but don't know what it is, and you are dying to find out more information about this dog because you want to adopt a similar one. What you do? Just take a photo of this dog and upload it to a web serive like this!
+* Personally, it is a great exercise to practice how to train a deep learning model and make it to production!
+* Imagine if you see a dog on the street but don't know what it is, and you are itchy to find out more information about this dog because you want to adopt a similar one. What you do? Just take a photo of this dog and upload it to a web serive like this!
 
 
 ## Python Libraries Used for this project
