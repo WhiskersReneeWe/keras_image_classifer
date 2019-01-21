@@ -26,15 +26,14 @@ graph = tf.get_default_graph()
 print("loading Inception Model ......")
 INCEPTION_model = load_model()
 
-
-# def get_model():
-#     '''load the trained CNN model with existing weights'''
-#     global INCEPTION_model
-#     INCEPTION_model = load_model()
 print("Inception Model Loaded!")
     
 def path_to_tensor(img_path):
     # loads RGB image as PIL.Image.Image type
+    '''
+    args: a path to the image
+    returns: a 4D tensor
+    '''
     img = image.load_img(img_path, target_size=(224, 224))
     # convert PIL.Image.Image type to 3D tensor with shape (224, 224, 3)
     x = image.img_to_array(img)
@@ -44,8 +43,8 @@ def path_to_tensor(img_path):
     
 def INCEPTIONV3_predict_breed(img):
     '''
-    input - any user supplied image
-    output - Predict the most likely dog breed based on the exisiting 133 breeds from ImageNet
+    args - a preprocessed image with a 4D tensor shape
+    returns - dog breed based on the exisiting 133 breeds from ImageNet
              data type: string
     '''
     dog_names = ['Affenpinscher',
@@ -197,11 +196,11 @@ def index():
 
 @app.route('/predict', methods = ['GET', 'POST'])
 def predict():
-    '''
-    a wrapper funtion that uses INCEPTIONV3_predict_breed function
-    to make predictions from the user supplied images
+    
+    #a wrapper funtion that uses INCEPTIONV3_predict_breed function
+    # to make predictions from the user supplied images
 
-    '''
+   
     # Get the image file from the post request
     file = request.files['file']
         
