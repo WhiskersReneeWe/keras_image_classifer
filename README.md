@@ -45,7 +45,7 @@
 ## The UI should look like this (This is actually snipped from my own browser)
 
 
-!<img width="534" alt="webapp" src="https://user-images.githubusercontent.com/43501958/51420827-e8df7800-1b4a-11e9-8b63-ca6fe7e94ecb.png">
+!<img width="649" alt="webapp" src="https://user-images.githubusercontent.com/43501958/51451171-e155d580-1ce8-11e9-855d-e808a52ac837.png">
 
 
 
