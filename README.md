@@ -21,7 +21,7 @@
 ## Main files included in this repository and their usages
 
 1. run_app.py is the main flask app that we need to run the web application.
-2. Other files serve as modules for run_app.py. Specifically, you should put all of the files in the same directory where you will run rin_app.py.
+2. Other files serve as modules for run_app.py. Specifically, you should put all of the files in the same directory where you will run run_app.py.
 3. Templates folder includes files that build up the UI. Static folder includes files specific for web page behaviors (These are found on the internet and serve as boilerplates code for people like me with little JS background).
 4. The .xml file is a pretrained file for face recognition; The .hdf5 file is where I saved the trained weights. They should be loaded automatically when app_run.py is fried up.
 5. project_documentation.pdf is documents the details of this project. You can read about the key process involving data preprocessing, model training, testing, and tuning.
