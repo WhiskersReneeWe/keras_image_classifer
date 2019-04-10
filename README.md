@@ -29,7 +29,7 @@
 
 ## How to get it going?
 
-0. In Anaconda Prompt, do the following to create a virtual envrironment. (For example, I name this project as dog_project)
+0. In Anaconda Prompt, do the following to create a virtual environment. (For example, I name this project as dog_project)
    `conda create -n dog_project --file env.txt`
 1. Make sure all files in this repository are in the same directory on your local computer.   
 2. In your command prompt, type the following commands sequentially,
