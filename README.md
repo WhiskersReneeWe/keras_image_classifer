@@ -1,4 +1,3 @@
-## __(This project will be improved upon soon ...)__
 # Transfer Learning using Keras InceptionV3 Model to classify dog faces
 
 ## Motivation
